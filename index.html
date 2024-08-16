@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単なブラウザアプリ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <button class="btn" onclick="showCharacter('A')" style="background-color: #ff9999;">A</button>
+        <button class="btn" onclick="showCharacter('B')" style="background-color: #99ccff;">B</button>
+        <button class="btn" onclick="showCharacter('C')" style="background-color: #99ff99;">C</button>
+        <button class="btn" onclick="showCharacter('D')" style="background-color: #ffcc99;">D</button>
+    </div>
+
+    <div id="display" style="display:none;">
+        <h1 id="characterDisplay"></h1>
+        <button class="btn" onclick="showCharacter('A')" style="background-color: #ff9999;">A</button>
+        <button class="btn" onclick="showCharacter('B')" style="background-color: #99ccff;">B</button>
+        <button class="btn" onclick="showCharacter('C')" style="background-color: #99ff99;">C</button>
+        <button class="btn" onclick="showCharacter('D')" style="background-color: #ffcc99;">D</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
